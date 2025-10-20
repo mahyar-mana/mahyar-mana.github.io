@@ -11,6 +11,14 @@ header {
   margin-bottom: 20px;
 }
 
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
 button {
   display: block;
   width: 100%;
@@ -21,4 +29,8 @@ button {
   background-color: var(--button-color, #0088cc);
   color: var(--button-text-color, #fff);
   font-size: 16px;
+}
+
+#answers button {
+  margin: 6px 0;
 }
